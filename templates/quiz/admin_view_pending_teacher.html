@@ -48,7 +48,7 @@
         <td>{{t.mobile}}</td>
         <td>{{t.address}}</td>
         
-        <td><a class="btn btn-primary btn-xs" href="{% url 'approve-teacher' t.id  %}"><span class="glyphicon glyphicon-ok"></span></a></td>
+        <td><a class="btn btn-success btn-xs" href="{% url 'approve-teacher' t.id  %}"><span class="glyphicon glyphicon-ok"></span></a></td>
         <td><a class="btn btn-danger btn-xs" href="{% url 'reject-teacher' t.id  %}"><span class="	glyphicon glyphicon-remove"></span></a></td>
       </tr>
       {% endfor %}

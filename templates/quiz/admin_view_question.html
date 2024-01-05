@@ -43,7 +43,7 @@
         <td> {{c.course_name}}</td>
         <td>{{c.question_number}}</td>
         <td>{{c.total_marks}}</td>
-        <td><a class="btn btn-primary btn-xs" href="{% url 'view-question' c.id  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
+        <td><a class="btn btn-success btn-xs" href="{% url 'view-question' c.id  %}"><span class="glyphicon glyphicon-eye-open"></span></a></td>
         
       </tr>
       {% endfor %}
